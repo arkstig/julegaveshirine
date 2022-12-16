@@ -20,7 +20,7 @@ function Present() {
          p-10 rounded-full items-center bg-white2/[.6] cursor-pointer  w-60 h-60"
         >
           <GiAirplaneDeparture className=" w-10 h-10 cursor-pointer " />
-          <GiIceland className=" w-40 h-40 text-blue cursor-pointer " />
+          <GiIceland className="drop-shadow-md  w-40 h-40 text-blue cursor-pointer " />
           <GiAirplaneArrival className=" w-10 h-10  cursor-pointer " />
         </div>
       ) : (
