@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineGift } from "react-icons/ai";
+import { AiOutlineGift, AiFillHeart } from "react-icons/ai";
 import {
   GiIceland,
   GiAirplaneArrival,
@@ -30,7 +30,10 @@ function Present() {
         w-60 h-60 flex flex-col justify-center items-center p-10 rounded-full cursor-pointer "
         >
           <AiOutlineGift className="text-red font-thin w-20 mb-4 h-20 cursor-pointer  " />
-          <p className="text-2xl">God Jul Shirine</p>
+          <p className="text-2xl flex flex-row">
+            Til Shirine{" "}
+            <AiFillHeart className="text-red drop-shadow-md  ml-1 mt-1" />{" "}
+          </p>
         </div>
       )}
     </div>
