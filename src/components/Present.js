@@ -29,7 +29,7 @@ function Present() {
 
         w-60 h-60 flex flex-col justify-center items-center p-10 rounded-full cursor-pointer "
         >
-          <AiOutlineGift className="text-red font-thin w-40 h-40 cursor-pointer  " />
+          <AiOutlineGift className="text-red font-thin w-20 mb-4 h-20 cursor-pointer  " />
           <p className="text-2xl">God Jul Shirine</p>
         </div>
       )}
