@@ -9,6 +9,7 @@ module.exports = {
         white: "#DEDEDE",
         pink: "#E9C8C3",
         brown: "#AAA28F",
+        white2: "#FFFF",
       },
       backgroundImage: {
         bg: "url('img/1.jpg')",
